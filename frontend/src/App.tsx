@@ -1,6 +1,7 @@
 import React, {useEffect, useRef, useState} from 'react';
 import Canvas from './components/Canvas';
 import {Pixel} from './types';
+import './App.css'
 
 const App: React.FC = () => {
   const [canvasState, setCanvasState] = useState<Pixel[]>([]);
